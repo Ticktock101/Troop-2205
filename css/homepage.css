@@ -1,0 +1,93 @@
+/*Navigation bar styling*/
+
+.navigation ul{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 50px;
+    align-items: center;
+    padding-right: 90px;
+    padding-left: 90px;
+    margin: 0%;
+}
+
+
+nav {
+    width: 100%;
+    height: 85px;
+    background-color: grey;
+
+    position: fixed;
+    z-index: 3;
+    
+}
+
+.navigation li{
+    flex: 1 1 auto;
+    list-style-type: none;
+    width: auto;
+    height: auto;
+    color: aliceblue;
+}
+
+#push-right{
+    margin-right: auto;
+    font-weight: bold;
+}
+
+/* Main content*/
+.container {
+    display: grid;
+    position: absolute;
+    top: 85px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;    
+    z-index: 2;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    grid-template-columns: 100%;
+    grid-template-areas: 
+    "password-generator"
+    "first-divider"
+    "tips"
+    "second-divider"
+    "other-resources";
+}
+
+.generate-password {
+    grid-area: password-generator;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.generate-password p {
+    flex: 0 1 auto; 
+    width: auto;
+    height: auto;
+    z-index: 1;
+}
+
+.first-divider {
+    grid-area: first-divider;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background: aqua;
+    z-index: 1;
+}
+
+.first-divider::after{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    z-index: 2;
+    
+    top: 85;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    
+    transform-origin: top left;
+    transform: skewY(4deg);
+}
