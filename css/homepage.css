@@ -41,7 +41,7 @@ a {
     left: 0;
     right: 0;
     z-index: 9;
-    grid-template-rows: 40px 550px 100px 100px;
+    grid-template-rows: 40px 550px 550px 550px;
     grid-template-columns: 100%;
     grid-template-areas: 
     "title"
@@ -57,20 +57,40 @@ a {
 .intro {
     grid-area: introduction;
     display: flex;
+    background-color: gray;
 }
 
 
 .intro-img {
     overflow: hidden;
     height: 550px;
+    width: auto;
+    position: relative;
+    left: -40px;
+}
+
+.intro-img img{
+    width: 100%;
+    height: auto;
+    clip-path: polygon(0% 0%, 100% 0%, 735px 100%, 0% 100%);
+}
+
+.second-point {
+    grid-area: area_2;
+    display: flex;
+    justify-content: flex-end;
+    background-color: blue;
+}
+
+.second-image {
+    overflow: hidden;
+    height: 550px;
+    width: auto;
     position: relative;
 }
 
-.intro-img img {
-    position: relative;
-    height: auto;
+.second-img img {
     width: auto;
-    left: -40px;
-    transform-origin: top right;
-    transform: skewX(-8deg);
+    height: 100%;
+    clip-path: polygon(200px 0%, 100% 0%, 100% 100%, 0% 100%);
 }
