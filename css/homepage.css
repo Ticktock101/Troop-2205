@@ -1,93 +1,76 @@
-/*Navigation bar styling*/
-
-.navigation ul{
+.navigation ul {
     display: flex;
     width: 100%;
     height: 100%;
-    gap: 50px;
-    align-items: center;
-    padding-right: 90px;
-    padding-left: 90px;
     margin: 0%;
+    padding: 0;
+    
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
-
 
 nav {
     width: 100%;
     height: 85px;
-    background-color: grey;
-
+    margin: 0;
+    padding: 0;
+    background-color: gray;
     position: fixed;
-    z-index: 3;
-    
+    z-index: 10;
 }
 
-.navigation li{
-    flex: 1 1 auto;
-    list-style-type: none;
+.navigation li {
+    flex: auto;
+    text-align: center;
     width: auto;
     height: auto;
+    margin: 0;
+}
+
+
+a {
+    text-decoration: none;
     color: aliceblue;
 }
 
-#push-right{
-    margin-right: auto;
-    font-weight: bold;
-}
-
-/* Main content*/
 .container {
     display: grid;
     position: absolute;
     top: 85px;
-    right: 0px;
-    left: 0px;
-    bottom: 0px;    
-    z-index: 2;
-    grid-template-rows: 100px 100px 100px 100px 100px;
+    left: 0;
+    right: 0;
+    z-index: 9;
+    grid-template-rows: 40px 550px 100px 100px;
     grid-template-columns: 100%;
     grid-template-areas: 
-    "password-generator"
-    "first-divider"
-    "tips"
-    "second-divider"
-    "other-resources";
+    "title"
+    "introduction"
+    "area_2"
+    "area_3";
 }
 
-.generate-password {
-    grid-area: password-generator;
+.title {
+    grid-area: title;
+}
+
+.intro {
+    grid-area: introduction;
     display: flex;
-    justify-content: flex-end;
 }
 
-.generate-password p {
-    flex: 0 1 auto; 
-    width: auto;
-    height: auto;
-    z-index: 1;
-}
 
-.first-divider {
-    grid-area: first-divider;
+.intro-img {
+    overflow: hidden;
+    height: 550px;
     position: relative;
-    width: 100%;
-    height: 200px;
-    background: aqua;
-    z-index: 1;
 }
 
-.first-divider::after{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: red;
-    z-index: 2;
-    
-    top: 85;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    
-    transform-origin: top left;
-    transform: skewY(4deg);
+.intro-img img {
+    position: relative;
+    height: auto;
+    width: auto;
+    left: -40px;
+    transform-origin: top right;
+    transform: skewX(-8deg);
 }
