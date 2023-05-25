@@ -12,7 +12,7 @@
 
 nav {
     width: 100%;
-    height: 15%;
+    height: 15vh;
     margin: 0;
     padding: 0;
     background-color: gray;
@@ -37,11 +37,11 @@ a {
 .container {
     display: grid;
     position: absolute;
-    top: 15%;
+    top: 15vh;
     left: 0;
     right: 0;
     z-index: 9;
-    grid-template-rows: 3% 40% 40% 40%;
+    grid-template-rows: 3vh 70vh 70vh 70vh;
     grid-template-columns: 100%;
     grid-template-areas: 
     "title"
@@ -62,27 +62,26 @@ a {
 
 
 .intro-img {
-    overflow: hidden;
+    flex: auto;
     height: 100%;
     width: auto;
     position: relative;
 }
 
 .intro-img img{
-    width: 100%;
-    height: auto;
-    clip-path: polygon(0% 0%, 100% 0%, 70% 100%, 0% 100%);
+    width: auto;
+    height: 100%;
+    clip-path: polygon(0% 0%, 100% 0%, 80% 100%, 0% 100%);
 }
 
 .second-point {
     grid-area: area_2;
     display: flex;
-    justify-content: flex-end;
     background-color: blue;
 }
 
-.second-image {
-    overflow: hidden;
+.second-img {
+    flex: auto;
     height: 100%;
     width: auto;
     position: relative;
@@ -91,5 +90,7 @@ a {
 .second-img img {
     width: auto;
     height: 100%;
-    clip-path: polygon(30% 0%, 100% 0%, 100% 100%, 0% 100%);
+    right: 0;
+    clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
+    object-fit: cover;
 }
