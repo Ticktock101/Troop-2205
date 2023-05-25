@@ -84,6 +84,7 @@ a {
     flex: auto;
     height: 100%;
     width: auto;
+    left: 0;
     position: relative;
 }
 
