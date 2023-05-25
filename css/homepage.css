@@ -94,3 +94,22 @@ a {
     clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
     object-fit: cover;
 }
+
+.third-point {
+    grid-area: area_3;
+    display: flex;
+    background-color: red;
+}
+
+.third-img {
+    flex: auto;
+    height: 100%;
+    width: auto;
+    position: relative;
+}
+
+.third-img img{
+    width: auto;
+    height: 100%;
+    clip-path: polygon(0% 0%, 100% 0%, 80% 100%, 0% 100%);
+}
