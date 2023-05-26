@@ -159,6 +159,14 @@ a {
     height: auto;
 }
 
-img {
-    padding: p-5;
-}
+@media (max-width: 768px) {
+    .text-sm {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .text-sm {
+      font-size: 12px;
+    }
+  }
