@@ -5,11 +5,13 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/website.css">
     <link rel="stylesheet" href="./css/homepage.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Troop 2205</title>
 </head>
 <body>
+<!--     
     <nav class="navigation">
         <ul>
             <li><a href="">Home</a></li>
@@ -17,12 +19,14 @@
             <li><a id="main-title" href="eagle-scouts.html">Eagle Scouts</a></li>
             <li><a href="">Join</a></li>
             <li><a href="">High Adventure</a></li>
-            <!--<li><button type="button" id="button">Sign in</button></li>-->
+            <li><button type="button" id="button">Sign in</button></li>
         </ul>
-    </nav>
+    </nav> 
+-->
     <main>
-        <div class="container">
-            <h1 class="title">Troop 2205</h1>
+        <h1 class="title">Troop 2205</h1>
+        <div class="container-fluid">
+            <!--
             <div class="intro">
                 <div class="intro-img">
                     <img src="./images/intro_image.jpg" alt="Having fun">
@@ -41,12 +45,23 @@
                 </div>
                 <p>We follow the 4 Aims of Scouting, Character Development, Leadership Development, Citizenship Training, and Personal Fitness</p>
             </div>
+        -->
+        
+            <div class="row">
+                <div class="col-6">
+                    <img src="./images/intro_image.jpg" alt="Having fun" class="img-fluid rounded">
+                </div>
+                <div class="col-6">
+                    <p>We are Troop 2205</p>
+                </div>
+            </div>
         </div>
     </main>
     <footer>
 
     </footer>
-    
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
 <script src="./dist/bundle.js"></script>
 </html>

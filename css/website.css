@@ -1,6 +1,7 @@
 /*css for entire website*/
 
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+@import "bootstrap/scss/bootstrap";
 
 * {
     box-sizing: border-box;
