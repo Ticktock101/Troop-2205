@@ -147,6 +147,6 @@ a {
 }
 */
 
-.intro-img img {
-    width: 50px;
+.container-fluid {
+    padding: 0;
 }

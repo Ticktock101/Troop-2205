@@ -3,15 +3,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
 @import "bootstrap/scss/bootstrap";
 
+
 * {
     box-sizing: border-box;
 }
 
 html, body{
-    margin: 0vh;
-    padding: 0vh;
-    height: 100vh;
-    width: 100vh;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
 }
 
 header, main, footer {
