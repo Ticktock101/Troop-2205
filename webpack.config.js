@@ -1,14 +1,21 @@
-const path = require('path');
+'use strict'
+
+const path = require('path')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
-  // The entry point file described above
-  entry: './src/index.js',
-  // The location of the build folder described above
+  mode: 'development',
+  entry: './src/js/main.js',
   output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js'
+    filename: 'main.js',
+    path: path.resolve(__dirname, 'dist')
   },
-  // Optional and for development only. This provides the ability to
-  // map the built code back to the original source format when debugging.
-  devtool: 'eval-source-map',
-};
+  devServer: {
+    static: path.resolve(__dirname, 'dist'),
+    port: 8080,
+    hot: true
+  },
+  plugins: [
+    new HtmlWebpackPlugin({ template: './src/index.html' })
+  ]
+}
