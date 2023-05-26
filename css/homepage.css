@@ -150,3 +150,15 @@ a {
 .container-fluid {
     padding: 0;
 }
+
+.intro-img {
+    height: 100%;
+}
+
+.intro {
+    height: auto;
+}
+
+img {
+    padding: p-5;
+}
