@@ -10,5 +10,13 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.2.3"
+  },
+  "devDependencies": {
+    "css-loader": "^6.7.4",
+    "node-sass": "^9.0.0",
+    "sass-loader": "^13.3.0",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.84.1",
+    "webpack-cli": "^5.1.1"
   }
 }
