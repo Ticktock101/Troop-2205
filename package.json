@@ -19,6 +19,9 @@
     "sass-loader": "^13.3.0",
     "style-loader": "^3.3.3",
     "webpack": "^5.84.1",
-    "webpack-cli": "^5.1.1"
+    "webpack-cli": "^5.1.1",
+    "bootstrap": "^5.5.0",
+    "@popperjs/core": "^2.11.6"
   }
+  
 }
