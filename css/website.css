@@ -11,6 +11,7 @@ html, body{
     padding: 0vh;
     height: 100vh;
     width: 100vh;
+    background-color: #4ab587;
 }
 
 header, main, footer {
