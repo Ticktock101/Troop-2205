@@ -38,11 +38,28 @@ a {
 }
 */
 
-.container-fluid {
-    padding: 0;
-    background: linear-gradient(to top left, var(--maroon), #cf9b00);
+.mb-6 {
+    margin: 12vh;
 }
 
+.row {
+    height: 100vh;
+}
+
+.img-fluid {
+    max-height: 88vh;
+    object-fit: contain; 
+}
+
+.container-fluid {
+    padding: 0;
+    background: linear-gradient(to left, #19a7ba, #cf9b00);
+}
+
+.row.border-bottom {
+    border-bottom: 1vh solid aliceblue !important;
+}
+  
 .intro-img {
     height: 100%;
 }
@@ -52,7 +69,13 @@ a {
     color: aliceblue;
 }
 
+.help-text {
+    height: auto;
+}
 
+.help-row {
+    height: auto;
+}
 
 @media (max-width: 768px) {
     .text-sm {
