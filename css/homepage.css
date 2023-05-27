@@ -1,3 +1,5 @@
+
+
 /*
 .navigation ul {
     display: flex;
@@ -36,117 +38,6 @@ a {
 }
 */
 
-/*
-.container {
-    display: grid;
-    position: absolute;
-    top: 10vh;
-    left: 0;
-    right: 0;
-    z-index: 9;
-    grid-template-rows: auto auto auto auto;
-    grid-template-columns: 100%;
-    grid-template-areas: 
-    "title"
-    "introduction"
-    "area_2"
-    "area_3";
-}
-
-.title {
-    grid-area: title;
-    display: flex;
-    justify-content: center;
-}
-
-.intro {
-    grid-area: introduction;
-    display: flex;
-    align-items: center;
-}
-
-
-.intro-img {
-    flex: auto;
-    height: auto;
-    width: 50vw;
-    position: relative;
-    margin-left: 2vw;
-    margin-top: 1vh;
-}
-
-.intro-img img{
-    width: 50vw;
-    height: auto;
-    border-radius: 20px;
-    object-fit: cover;
-}
- 
-.intro p {
-    flex: auto;
-    margin-left: 2vw;
-    margin-right: 2vw;
-}
-
-.second-point {
-    grid-area: area_2;
-    display: flex;
-    align-items: center;
-}
-
-.second-img {
-    flex: auto;
-    height: auto;
-    width: 50vw;
-    left: 0;
-    margin-right: 2vw;
-    position: relative;
-    margin-top: 1vh;
-}
-
-.second-img img {
-    width: 50vw;
-    height: auto;
-    border-radius: 20px;
-    object-fit: cover;
-}
-
-.second-point p {
-    flex: auto;
-    margin-right: 2vw;
-    margin-left: 2vw;
-}
-
-.third-point {
-    grid-area: area_3;
-    display: flex;
-    align-items: center;
-}
-
-.third-img {
-    flex: auto;
-    height: auto;
-    width: 50vw;
-    position: relative;
-    margin-left: 2vw;
-    margin-top: 1vh;
-}
-
-.third-img img {
-    width: 50vw;
-    height: auto;
-    border-radius: 20px;
-    object-fit: cover;
-}
-
-.third-point p {
-    position: relative;
-    flex: auto;
-    margin-left: 2vw;
-    margin-right: 2vw;
-}
-*/
-
 .container-fluid {
     padding: 0;
 }
@@ -156,7 +47,15 @@ a {
 }
 
 .intro {
-    height: auto;
+    background: linear-gradient(to top left, var(--maroon), #cf9b00);
+}
+
+.intro-text {
+    color: aliceblue;
+}
+
+.third {
+    background-color: var(--gold);
 }
 
 @media (max-width: 768px) {
@@ -169,4 +68,5 @@ a {
     .text-sm {
       font-size: 12px;
     }
-  }
+}
+

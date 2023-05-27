@@ -3,6 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
 @import "bootstrap/scss/bootstrap";
 
+:root {
+    --maroon: #530a04;
+    --gold: #f6b800;
+}
 
 * {
     box-sizing: border-box;
