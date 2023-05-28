@@ -46,14 +46,14 @@ a {
     height: 100vh;
 }
 
-.img-fluid {
+.img-normal {
     max-height: 88vh;
     object-fit: contain; 
 }
 
-.container-fluid {
+.intro {
     padding: 0;
-    background: linear-gradient(to left, #19a7ba, #cf9b00);
+    background: linear-gradient(to left top, var(--darkBrown), var(--lightBrown));
 }
 
 .row.border-bottom {
@@ -76,6 +76,22 @@ a {
 .help-row {
     height: auto;
 }
+
+#second-full img {
+    max-height: 100%;
+    width: auto;
+}
+
+#second-full {
+    padding: 0;
+    height: 100%;
+}
+
+.second {
+    margin: 0;
+    background-color: var(--lightBrown);
+}
+
 
 @media (max-width: 768px) {
     .text-sm {
