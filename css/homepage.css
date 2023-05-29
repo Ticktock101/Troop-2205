@@ -38,18 +38,18 @@
     background-image: url(../images/intro_image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    animation: slide-background 5s linear infinite;
+    /* animation: slide-background 5s linear infinite; */
 }
 
-
+/* 
 @keyframes slide-background {
     0% {
-      background-position: 0 0; /* Start position of the background image */
+      background-position: 0 0;
     }
     100% {
       background-position: -100% 0;
     }
-}
+} */
 
 .title-text b{
     font-size: 10vh !important;
