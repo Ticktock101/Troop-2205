@@ -77,6 +77,10 @@ img {
     box-shadow: 0 0 10px 5px rgb(125, 25, 25);
 }
 
+#fleur-de-lis {
+    background-color: white;
+}
+
 /* 
 .background-image {
     background-image: url("../images/image_4.JPG");
