@@ -74,7 +74,7 @@ p {
 }
 
 .background-image {
-    background-image: url("/images/image_4.JPG");
+    background-image: url("/image_4.JPG");
     background-size: cover;
     background-repeat: no-repeat;
 }
