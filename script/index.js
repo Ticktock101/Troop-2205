@@ -1,8 +1,8 @@
 const images = [
-    '../images/image_2.jpg',
-    '../images/image_7.JPG',
-    '../images/image_4.JPG',
-    '../images/image_5.JPG',
+    'https://github.com/Ticktock101/Troop-2205/blob/main/images/image_2.jpg',
+    'https://github.com/Ticktock101/Troop-2205/blob/main/images/image_7.JPG',
+    'https://github.com/Ticktock101/Troop-2205/blob/main/images/image_4.JPG',
+    'https://github.com/Ticktock101/Troop-2205/blob/main/images/image_5.JPG',
   ];
   
   let currentIndex = 0;
