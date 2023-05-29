@@ -1,8 +1,8 @@
 const images = [
     '../images/image_2.jpg',
+    '../images/image_7.JPG',
     '../images/image_4.JPG',
     '../images/image_5.JPG',
-    '../images/image_7.JPG'
   ];
   
   let currentIndex = 0;
@@ -10,18 +10,7 @@ const images = [
   
   function changeBackgroundImage() {
     currentIndex = (currentIndex + 1) % images.length;
-  
-    // Add the 'slide' class to trigger the transition
-    backgroundContainer.classList.add('slide');
-  
-    // Wait for the transition to complete
-    setTimeout(() => {
-      // Change the background image after the transition
-      backgroundContainer.style.backgroundImage = `url(${images[currentIndex]})`;
-      
-      // Remove the 'slide' class to reset the transition
-      backgroundContainer.classList.remove('slide');
-    }, 500);
+    backgroundContainer.style.backgroundImage = `url(${images[currentIndex]})`;
   }
   
   // Call the function at a specific interval to change the background image
