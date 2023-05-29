@@ -1,42 +1,9 @@
-
-
-/*
-.navigation ul {
-    display: flex;
+.navbar {
+    position: fixed !important;
     width: 100%;
-    height: 100%;
-    margin: 0%;
-    padding: 0;
-    
-    align-items: center;
-    justify-content: space-evenly;
-    list-style-type: none;
+    border:rgb(18, 116, 202) 2px solid;
 }
 
-nav {
-    width: 100%;
-    height: 10vh;
-    margin: 0;
-    padding: 0;
-    background-color: gray;
-    position: fixed;
-    z-index: 10;
-}
-
-.navigation li {
-    flex: auto;
-    text-align: center;
-    width: auto;
-    height: auto;
-    margin: 0;
-}
-
-
-a {
-    text-decoration: none;
-    color: aliceblue;
-}
-*/
 
 .mb-6 {
     margin: 12vh;
@@ -74,7 +41,7 @@ p {
 }
 
 img {
-    box-shadow: 0 0 10px 5px rgb(125, 25, 25);
+    /* box-shadow: 0 0 10px 5px rgb(125, 25, 25); */
     max-height: 100%;
 }
 
