@@ -1,25 +1,36 @@
-.navbar {
+/* .navbar {
     position: fixed !important;
     width: 100%;
     border:rgb(18, 116, 202) 2px solid;
     z-index: 10;
-}
+} */
 
 
-.main-content {
+#main-content {
     position: absolute;
     width: 100%;
     padding: 0;
     margin: 0;
 }
 
+#carouselExampleIndicators {
+    padding: 0;
+}
+
+.carousel-inner .carousel-item {
+    max-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
 .mb-6 {
     margin: 12vh;
 }
-
+/* 
 .other-row {
     height: 100vh !important;
-}
+} */
 
 .title-box {
     height: 60%;
@@ -36,7 +47,7 @@
     }
   } */
 
-.background-image {
+/* .background-image {
     background-image: url(../images/intro_image.jpg);
     height: 100%;
     width: 100%;
@@ -45,8 +56,7 @@
     background-position: center;
     margin: 0;
     padding: 0;
-    /* animation: slide-background 5s linear infinite; */
-}
+} */
 
 /* 
 @keyframes slide-background {
