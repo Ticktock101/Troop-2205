@@ -1,0 +1,25 @@
+.navbar {
+    position: fixed !important;
+    width: 100%;
+    z-index: 10;
+    background-color: aliceblue;
+    min-height: 12vh;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    align-items: stretch;
+}
+
+#eagle {
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding: 0 !important;
+}
