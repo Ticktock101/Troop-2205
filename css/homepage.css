@@ -5,12 +5,34 @@
     z-index: 10;
 } */
 
+.navbar {
+    position: fixed !important;
+    width: 100%;
+    z-index: 10;
+    background-color: aliceblue;
+    min-height: 12vh;
+}
+
+#hero {
+    display: flex;
+    background-color: var(--maroon);
+    height: auto;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    width: auto;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    align-items: center;
+    justify-content: center;
+    color: var(--gold);
+}
 
 #main-content {
-    position: absolute;
+    position: relative;
     width: 100%;
     padding: 0;
     margin: 0;
+    top: 12vh;
 }
 
 #carouselExampleIndicators {
@@ -20,7 +42,6 @@
 
 .carousel-inner .carousel-item {
     height: auto;
-    overflow: hidden;
 }
 
 .carousel-inner .carousel-item img {
@@ -35,7 +56,7 @@
 }
 
 .other-row {
-    max-height: 100vh !important;
+    height: auto;
 }
 
 .row {
@@ -43,47 +64,25 @@
     position: relative;
 }
 
-.title-box {
-    position: absolute;
-    z-index: 9;
-    border: 10px;
-    width: 80%;
-    background-color: rgba(240, 248, 255, 0.75);
-}
-
-/*
-@keyframes slide-background {
-    0% {
-        background-position: 0 0;  Start position of the background image;
-      }
-    100% {
-        background-position: 100% 0; End position of the background image 
-    }
-  } */
-
-/* .background-image {
-    background-image: url(../images/intro_image.jpg);
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+body {
     margin: 0;
     padding: 0;
-} */
+}
 
-/* 
-@keyframes slide-background {
-    0% {
-      background-position: 0 0;
-    }
-    100% {
-      background-position: -100% 0;
-    }
-} */
+#title-box {
+    position: absolute;
+    z-index: 9;
+    width: 60%;
+    max-height: 100%;
+    min-height: 50%;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.75);
+    overflow-y: auto;
+    box-sizing: content-box;
+}
 
 .title-text b{
-    font-size: 10vh !important;
+    /* font-size: 10vh !important; */
     opacity: 100% !important;
 }
 
@@ -92,9 +91,10 @@ p {
 }
 
 .img-normal {
-    max-height: 100vh;
+    /* max-height: 100vh; */
+    width: 100%;
     object-fit: contain;
-    width: 100%; 
+    height: auto;
 }
 
 .intro {
@@ -104,18 +104,15 @@ p {
 }
 
 
-img {
-    /* box-shadow: 0 0 10px 5px rgb(125, 25, 25); */
-    max-height: 100%;
-}
-
 #fleur-de-lis {
     background-color: white;
     position: relative;
     top: 0;
 }
 
-
+.third {
+    height: auto;
+}
 
 .help-text {
     height: auto;
@@ -125,8 +122,16 @@ img {
     height: auto;
 }
 
+.values {
+    align-self: flex-start;
+}
 
-/* @media (max-width: 768px) {
+.journey {
+    align-self: flex-start;
+}
+
+/* 
+@media (max-width: 768px) {
     .text-sm {
       font-size: 14px;
     }
@@ -137,3 +142,9 @@ img {
       font-size: 12px;
     }
 } */
+
+@media (max-width: 576px) {
+    #title-box {
+      width: 75%;
+    }
+  }
