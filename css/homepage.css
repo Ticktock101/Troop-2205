@@ -71,7 +71,7 @@ body {
     min-height: 50%;
     text-align: center;
     background-color: rgba(240, 248, 255, 0.75);
-    overflow-y: auto;
+    /* overflow-y: auto; */
     box-sizing: content-box;
     padding-bottom: 0 !important;
     padding-top: 0 !important;
@@ -124,18 +124,17 @@ p {
     align-self: flex-start;
 }
 
-/* 
-@media (max-width: 768px) {
-    .text-sm {
-      font-size: 14px;
+@media (max-width: 380px) {
+    .hero-text {
+      font-size: small;
     }
-  }
-  
-  @media (max-width: 576px) {
+}
+
+@media (min-width: 600px) {
     .text-sm {
-      font-size: 12px;
+      font-size: larger;
     }
-} */
+}
 
 @media (max-width: 576px) {
     #title-box {
