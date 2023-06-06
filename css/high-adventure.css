@@ -38,3 +38,20 @@
     justify-self: center;
     margin-left: 0 !important;
 }
+
+.link-arrow a{
+    margin-right: auto;
+}
+
+.link-arrow img {
+    max-height: 6vh;
+}
+
+.arrow-image {
+    transition: transform 0.3s ease-in-out;
+}
+  
+.rotate-arrow {
+    transform: rotate(90deg);
+}
+  

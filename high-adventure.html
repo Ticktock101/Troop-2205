@@ -36,7 +36,10 @@
     <main>
         <div class="container-fluid main-content"> 
             <div class="row clickable d-flex flex-column justify-content-center p-3 m-1 rounded-3 border">
-                <a href="#" class="expand-link h1" data-bs-toggle="collapse" data-bs-target=".content">Philmont 2021</a>
+                <div class="d-flex link-arrow p-4">
+                    <a href="#" class="expand-link h1" data-bs-toggle="collapse" data-bs-target=".content" onclick="rotateArrow(event)">Philmont 2021</a>
+                    <img src="./images/arrow-removebg-preview.png" class="expand-link arrow-image" data-bs-toggle="collapse" data-bs-target=".content" onclick="rotateArrow(event)" alt="">
+                </div>
                 <div class="col-12 content collapse show">
                     <p id="description" class="h3 m-4">We went to Philmont in 2021, Crew 716B, Itinerary 12-14!</p>
                     <div id="carouselExampleIndicators" class="carousel slide h-sm-50 h-md-50 h-100" data-bs-ride="carousel">
