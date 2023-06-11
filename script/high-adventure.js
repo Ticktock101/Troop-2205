@@ -2,11 +2,11 @@ $('.carousel').carousel({
     interval: 2000
 })
 
-function rotateArrow(event) {
-    event.preventDefault();
+// function rotateArrow(event) {
+//     event.preventDefault();
   
-    var arrowImage = document.querySelector('.arrow-image');
-    arrowImage.classList.toggle('rotate-arrow');
-  }
+//     var arrowImage = document.querySelector('.arrow-image');
+//     arrowImage.classList.toggle('rotate-arrow');
+//   }
   
   
