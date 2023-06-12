@@ -54,4 +54,12 @@
 .rotate-arrow {
     transform: rotate(90deg);
 }
+
+.text-sm {
+    color: var(--maroon);
+}
+
+.h1 {
+    color: var(--maroon) !important;
+}
   

@@ -13,3 +13,11 @@
     margin: 0;
     top: 12vh;
 }
+
+.text-sm {
+    color: var(--maroon);
+}
+
+.h1 {
+    color: var(--maroon) !important;
+}
