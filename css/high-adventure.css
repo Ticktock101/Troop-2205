@@ -62,4 +62,7 @@
 .h1 {
     color: var(--maroon) !important;
 }
-  
+
+.navbar-nav .nav-link {
+    color: var(--maroon) !important;
+} 

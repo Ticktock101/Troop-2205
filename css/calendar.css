@@ -13,3 +13,7 @@
     margin: 0;
     top: 12vh;
 }
+
+.navbar-nav .nav-link {
+    color: var(--maroon) !important;
+}
