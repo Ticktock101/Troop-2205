@@ -8,12 +8,49 @@
 
 .main-content {
     position: relative;
-    width: 100%;
+    width: 100% !important;
     padding: 0;
     margin: 0;
-    top: 12vh;
+    top: 16vh;
 }
 
 .navbar-nav .nav-link {
+    color: var(--maroon) !important;
+}
+
+.footer {
+    color: #C20808 !important;
+    background-color: aliceblue !important;
+    padding: 20px 0;
+  }
+  
+.footer a {
+    color: #C20808;
+}
+  
+.contact-icons a {
+    color: #C20808;
+    margin-right: 10px;
+    font-size: 24px;
+}
+  
+.contact-info li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    padding-left: 0;
+}
+
+.calendar {
+    width: 100% !important;
+}
+
+.text-sm {
+    color: var(--maroon);
+}
+
+.h1 {
     color: var(--maroon) !important;
 }
