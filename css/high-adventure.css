@@ -5,6 +5,7 @@
     top: 0;
     background-color: aliceblue;
     min-height: 12vh;
+    padding: 0 !important;
 }
 
 .main-content {
